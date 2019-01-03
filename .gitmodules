@@ -149,8 +149,8 @@
 	branch = master
 [submodule "src/code.cloudfoundry.org/executor"]
 	path = src/code.cloudfoundry.org/executor
-	url = https://github.com/cloudfoundry/executor
-	branch = master
+	url = https://github.com/rosenhouse/executor
+	branch = wip-go-control-plane
 [submodule "src/code.cloudfoundry.org/healthcheck"]
 	path = src/code.cloudfoundry.org/healthcheck
 	url = https://github.com/cloudfoundry/healthcheck
@@ -425,3 +425,12 @@
 [submodule "src/github.com/hpcloud/tail"]
 	path = src/github.com/hpcloud/tail
 	url = https://github.com/hpcloud/tail
+[submodule "src/github.com/envoyproxy/go-control-plane"]
+	path = src/github.com/envoyproxy/go-control-plane
+	url = https://github.com/envoyproxy/go-control-plane
+[submodule "src/github.com/lyft/protoc-gen-validate"]
+	path = src/github.com/lyft/protoc-gen-validate
+	url = https://github.com/lyft/protoc-gen-validate
+[submodule "src/github.com/gogo/googleapis"]
+	path = src/github.com/gogo/googleapis
+	url = https://github.com/gogo/googleapis
